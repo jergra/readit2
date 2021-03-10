@@ -49,7 +49,7 @@ export default function Register() {
         <div className="w-70">
         <h1 className="mb-2 text-lg font-medium">Login</h1>
         <p className="mb-10 text-xs">
-          BY CONTINUING, you agree to our User Agreement and Privacy Policy
+          By continuing, you agree to our USER AGREEMENT and PRIVACY POLICY
         </p>
         <form onSubmit={submitForm}>
             
