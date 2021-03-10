@@ -6,6 +6,7 @@ import {useRouter} from 'next/router'
 
 import {useAuthDispatch, useAuthState} from '../context/auth'
 
+import Bricks from '../images/bricks.jpg'
 import InputGroup from '../components/InputGroup'
 
 export default function Register() {
@@ -41,15 +42,18 @@ export default function Register() {
         <title>Login</title>
       </Head>
 
-      <div 
+      {/* <div 
         className="h-screen bg-center bg-cover w-36" 
-        style={{backgroundImage: "url('/images/bricks.jpg')"}}
-      ></div>
+        style={{backgroundImage: "url('../images/bricks.jpg')"}}
+      ></div> */}
+      <div className="h-screen bg-center bg-cover w-36">
+      <Bricks />
+      </div>
       <div className="flex flex-col justify-center pl-6">
         <div className="w-70">
         <h1 className="mb-2 text-lg font-medium">Login</h1>
         <p className="mb-10 text-xs">
-          BY CONTINUING, YOU AGREE TO OUR USER AGREEMENT AND PRIVACY POLICY
+          By continuing, YOU AGREE TO OUR USER AGREEMENT AND PRIVACY POLICY
         </p>
         <form onSubmit={submitForm}>
             
