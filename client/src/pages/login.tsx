@@ -43,14 +43,14 @@ export default function Register() {
 
       <div 
         className="h-screen bg-center bg-cover w-36" 
-        style={{backgroundImage: "url('../images/bricks.jpg')"}}
+        style={{backgroundImage: `url('${process.env.NEXT_PUBLIC_SERVER_BASE_URL}/images/bricks.jpg')`}}
       ></div>
       
       <div className="flex flex-col justify-center pl-6">
         <div className="w-70">
         <h1 className="mb-2 text-lg font-medium">Login</h1>
         <p className="mb-10 text-xs">
-          By continuing, you agree to our USER AGREEMENT and PRIVACY POLICY
+          By continuing, you agree to our User Agreement and Privacy Policy
         </p>
         <form onSubmit={submitForm}>
             
