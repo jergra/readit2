@@ -38,7 +38,7 @@ export default function Register() {
   return (
     <div className="flex bg-white">
       <Head>
-        <title>Login</title>
+        <title className="text-blue-500 ">Login</title>
       </Head>
 
       <div 
