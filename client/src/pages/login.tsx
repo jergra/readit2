@@ -38,7 +38,7 @@ export default function Register() {
   return (
     <div className="flex bg-white">
       <Head>
-        <title className="text-blue-500 ">Login</title>
+        <title>Login</title>
       </Head>
 
       <div 
@@ -48,9 +48,9 @@ export default function Register() {
       
       <div className="flex flex-col justify-center pl-6">
         <div className="w-70">
-        <h1 className="mb-2 text-lg font-medium">Login</h1>
+        <h1 className="mb-2 text-lg font-medium text-blue-500">Login</h1>
         <p className="mb-10 text-xs">
-          By continuing, you agree to our User Agreement and Privacy Policy
+          You agree to our User Agreement and Privacy Policy
         </p>
         <form onSubmit={submitForm}>
             

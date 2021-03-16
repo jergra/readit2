@@ -3,6 +3,10 @@ this project, from a tutorial by Classsed, is a clone of reddit.com
 to install deployment version (C:\readit) at Digital Ocean, follow instructions at
 	deploy:				https://www.youtube.com/watch?v=xqHyMAlRtYw&t=70s
 	update after deployment:	https://www.youtube.com/watch?v=z9OBKbSBOuw&t=3s
+		once this update capability is in place, updates occur automatically with the usual:
+			git add .
+			git commit -m "update"
+			git push origin main
 ----------
 Useful info for deployment version:
 
